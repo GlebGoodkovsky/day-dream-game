@@ -52,3 +52,15 @@ add([
     color(255, 180, 255),
     move(LEFT, 240), //moves it forward the left infinitely at 240 pixels per second
 ]);
+
+// add tree
+add([
+    rect(48, 64),
+    area(),
+    outline(4),
+    pos(width(), height() - 48),
+    anchor("botleft"),
+    color(255, 180, 255),
+    move(screenLeft, 240),
+    "tree",
+]);
