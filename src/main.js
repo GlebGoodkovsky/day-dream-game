@@ -35,3 +35,4 @@ add([
 
 ]);
 
+setGravity(1600);
