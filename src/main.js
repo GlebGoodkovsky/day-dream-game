@@ -18,8 +18,20 @@ const player = add([
     pos(80, 40),
     area(),
     body(),
+
 ])
 
 onKeyPress("space", () => {
     Boolean.jump();
 });
+
+add([
+    rect(width(), 48), //makes a rectangle the width of the screen and 48 pixels tall
+    pos(0, height() - 48), //positions the rectangle at the bottom of the screen
+    outline(4), //adds an outline to the rectangle
+    area(), //gives the rectangle an area so it can be collided with
+    body({ isStatic: true }), //makes the rectangle not move when something collides with it
+    color(127, 200, 255),
+
+]);
+
