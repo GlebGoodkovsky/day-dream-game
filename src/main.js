@@ -62,7 +62,7 @@ add([
     anchor("botleft"),
     color(255, 180, 255),
     move(screenLeft, 240),
-    "tree",
+    "tree", //add a tag here
 ]);
 
 //a way for us to check for collision between bean and anhy object with tag "tree"
