@@ -36,3 +36,9 @@ add([
 ]);
 
 setGravity(1600);
+
+onKeyPress("space", () => {
+    if (bean.isGrounded()) {
+        bean.jump();
+    }
+});
