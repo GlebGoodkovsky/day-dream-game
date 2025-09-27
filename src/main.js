@@ -64,3 +64,9 @@ add([
     move(screenLeft, 240),
     "tree",
 ]);
+
+//a way for us to check for collision between bean and anhy object with tag "tree"
+bean.onCollide("tree", () => {
+    addKaboom(bean.pos);
+    shake();
+})
