@@ -42,3 +42,13 @@ onKeyPress("space", () => {
         bean.jump();
     }
 });
+
+add([
+    rect(48, 64),
+    area(),
+    outline(4),
+    pos(width(), height() - 48),
+    anchor("botleft"),
+    color(255, 180, 255),
+    move(screenLeft, 240),
+]);
