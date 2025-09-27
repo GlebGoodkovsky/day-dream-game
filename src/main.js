@@ -19,3 +19,7 @@ const player = add([
     area(),
     body(),
 ])
+
+onKeyPress("space", () => {
+    Boolean.jump();
+});
