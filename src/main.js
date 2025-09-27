@@ -48,7 +48,7 @@ add([
     area(),
     outline(4),
     pos(width(), height() - 48),
-    anchor("botleft"),
+    anchor("botleft"), //defines the origin point of position in this case the bottom left
     color(255, 180, 255),
-    move(screenLeft, 240),
+    move(LEFT, 240), //moves it forward the left infinitely at 240 pixels per second
 ]);
